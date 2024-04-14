@@ -58,7 +58,8 @@ class MealItem extends StatelessWidget {
           arguments: id,
         )
         .then((result) => {
-              // if (result != null) {removeItem(result)}
+              if (result == 'back') {}
+              // print(result)
             }); // executed when page is popped
   }
 
